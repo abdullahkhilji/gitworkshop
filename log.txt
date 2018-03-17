@@ -1,0 +1,159 @@
+➜  Desktop ls
+Academics                                                             Me
+AI ML DATA SCIENCE RESOURCES                                          message.eml
+AI ML DATA SCIENCE RESOURCES-20180314T004003Z-001.zip                 my-app.js
+Coursera _ Online Courses From Top Universities. Join for Free.mhtml  PROGRAM1
+Financial Aid.mhtml                                                   Programming
+Financial Aid.pdf                                                     Screenshots
+git                                                                   Shortcuts
+hackathon                                                             swift-4.0.3-RELEASE-ubuntu16.10.tar.gz
+IITB Folder                                                           Swift Practice
+JIPMER                                                                test
+JIPMER Placard.odt                                                    t.exe
+JIPMER Placard.pdf                                                    tmaster.exe
+js                                                                    TypingMaster2010.exe
+LibreOffice_6.0.2.1_Linux_x86-64_deb_helppack_en-US                   UthmanicHafs1 Ver09.otf
+LibreOffice_6.0.2_Linux_x86-64_deb.tar.gz
+➜  Desktop cd git
+➜  git add.c
+zsh: command not found: add.c
+➜  git bash
+abdullah@AbdK:~/Desktop/git$ add.c
+add.c: command not found
+abdullah@AbdK:~/Desktop/git$ rm add
+rm: cannot remove 'add': No such file or directory
+abdullah@AbdK:~/Desktop/git$ ls
+add.c
+abdullah@AbdK:~/Desktop/git$ git init
+Initialized empty Git repository in /home/abdullah/Desktop/git/.git/
+abdullah@AbdK:~/Desktop/git$ ls -a
+.  ..  add.c  .git
+abdullah@AbdK:~/Desktop/git$ cd .git
+abdullah@AbdK:~/Desktop/git/.git$ cd ..
+abdullah@AbdK:~/Desktop/git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        add.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+abdullah@AbdK:~/Desktop/git$ git add *
+abdullah@AbdK:~/Desktop/git$ git commit -m "Initial Commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'abdullah@AbdK.(none)')
+abdullah@AbdK:~/Desktop/git$ ^C
+abdullah@AbdK:~/Desktop/git$ ^C
+abdullah@AbdK:~/Desktop/git$ git config --global user.email "abdullahkhilji.nits@gmail.com"
+abdullah@AbdK:~/Desktop/git$ git config --global user.name "Abdullah khilji"
+abdullah@AbdK:~/Desktop/git$ git commit -m "Initial Commit"
+[master (root-commit) e3b5353] Initial Commit
+ 1 file changed, 8 insertions(+)
+ create mode 100644 add.c
+abdullah@AbdK:~/Desktop/git$ git config --global user.name "Abdullah Khilji"
+abdullah@AbdK:~/Desktop/git$ git commit -m "Initial Commit"
+On branch master
+nothing to commit, working tree clean
+abdullah@AbdK:~/Desktop/git$ git remote add origin https://github.com/abdullahkhilji/gitworkshop.git
+abdullah@AbdK:~/Desktop/git$ git remote -v
+origin  https://github.com/abdullahkhilji/gitworkshop.git (fetch)
+origin  https://github.com/abdullahkhilji/gitworkshop.git (push)
+abdullah@AbdK:~/Desktop/git$ git  push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ ping google.com
+PING google.com (216.58.196.206) 56(84) bytes of data.
+^Z
+[1]+  Stopped                 ping google.com
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': gnutls_handshake() failed: An unexpected TLS packet wasreceived.
+abdullah@AbdK:~/Desktop/git$ git push origin master
+^C
+abdullah@AbdK:~/Desktop/git$ ping google.com
+PING google.com(del03s07-in-x0e.1e100.net (2404:6800:4002:806::200e)) 56 data bytes
+64 bytes from del03s07-in-x0e.1e100.net (2404:6800:4002:806::200e): icmp_seq=1 ttl=56 time=92.5 ms
+64 bytes from del03s07-in-x0e.1e100.net (2404:6800:4002:806::200e): icmp_seq=2 ttl=56 time=80.1 ms
+64 bytes from del03s07-in-x0e.1e100.net (2404:6800:4002:806::200e): icmp_seq=3 ttl=56 time=152 ms
+^C
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 80.182/108.450/152.620/31.639 ms
+abdullah@AbdK:~/Desktop/git$ git push origin master
+fatal: unable to access 'https://github.com/abdullahkhilji/gitworkshop.git/': Failed to connect to 172.16.30.20 port 8080: Connectiontimed out
+abdullah@AbdK:~/Desktop/git$ git config --global http.proxy http://172.16.30.20:8080
+abdullah@AbdK:~/Desktop/git$ git push origin master
+Username for 'https://github.com': abdullahkhilji.nits@gmail.com
+Password for 'https://abdullahkhilji.nits@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/abdullahkhilji/gitworkshop.git/'
+abdullah@AbdK:~/Desktop/git$ git config --global https.proxy http://172.16.30.20:8080
+abdullah@AbdK:~/Desktop/git$ ls
+add.c
+abdullah@AbdK:~/Desktop/git$ git push origin master
+Username for 'https://github.com': abdullahkhilji.nits@gmail.com
+Password for 'https://abdullahkhilji.nits@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/abdullahkhilji/gitworkshop.git/'
+abdullah@AbdK:~/Desktop/git$ git push origin master
+Username for 'https://github.com': abdullahkhilji
+Password for 'https://abdullahkhilji@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/abdullahkhilji/gitworkshop.git/'
+abdullah@AbdK:~/Desktop/git$ git push origin master
+Username for 'https://github.com': abdullahkhilji
+Password for 'https://abdullahkhilji@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/abdullahkhilji/gitworkshop.git/'
+abdullah@AbdK:~/Desktop/git$ git push origin master
+^C
+abdullah@AbdK:~/Desktop/git$ git push origin master
+Username for 'https://github.com': abdullahkhilji
+Password for 'https://abdullahkhilji@github.com':
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/abdullahkhilji/gitworkshop.git
+ * [new branch]      master -> master
+abdullah@AbdK:~/Desktop/git$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/abdullahkhilji/gitworkshop
+ * branch            master     -> FETCH_HEAD
+   e3b5353..7857582  master     -> origin/master
+Updating e3b5353..7857582
+Fast-forward
+ add.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+abdullah@AbdK:~/Desktop/git$
